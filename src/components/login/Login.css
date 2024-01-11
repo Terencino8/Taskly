@@ -1,0 +1,65 @@
+.loginBox{
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-image: url(../../T_images/T_Bg_image\ login.png);
+    background-position-x: left;
+    background-size: cover;
+    background-position-y: bottom;
+ 
+}
+
+
+.log{
+    width: 75%;
+    height: 80%;
+    
+}
+
+.sign{
+    width: 75%;
+    height: 80%;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px){
+
+    .loginBox{
+        background-size: contain;
+        background-position-x: right;
+    }
+
+    /* .logincontainer{
+        width: 100%;
+        height: 100%;
+        background-color: #1e1f24da;
+        border-radius: 0;
+
+    }
+
+
+    .loginimg{
+        display: none;
+    }
+
+    .loginform{
+        width: 100%;
+    }
+
+    .logincontainer h1{
+        font-size: 2rem;
+    }
+
+
+} */
+}
+
+    

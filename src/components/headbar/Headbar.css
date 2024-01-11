@@ -1,0 +1,67 @@
+.headbar{
+    height: 10%;
+    background-color: #1E1F24;
+    box-shadow: var(--box-shadow-big);
+
+ 
+}
+
+.bar{
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr) ;
+    grid-auto-columns: minmax(100%, auto);
+    color: white;
+
+    
+
+    height: 100%;
+}
+
+
+.headlogo{
+    /* background-color: red; */
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.headlogo img{
+    width: 100px;
+}
+
+.headDate{
+    grid-column: 6/7;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 950px)  {
+
+    .headbar{
+        height: 10%;
+    }
+
+    .bar{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr) ;
+        
+    }
+
+    .headlogo img{
+        width: 70%;
+
+    }
+    
+
+    .headDate{
+        grid-column: 4/5;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+}
