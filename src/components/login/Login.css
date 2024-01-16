@@ -9,23 +9,31 @@
     background-size: cover;
     background-position-y: bottom;
  
+ 
 }
 
 
 .log{
     width: 75%;
     height: 80%;
-    
+
+  
 }
 
 .sign{
     width: 75%;
     height: 80%;
+    display: none;
+   
+
+
 }
 
 
 button:hover{
    padding:15px 40px;
+   transition: all ease-in 0.4s;
+
 
 }
 
