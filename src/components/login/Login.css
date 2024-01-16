@@ -24,6 +24,13 @@
 }
 
 
+button:hover{
+   padding:15px 40px;
+
+}
+
+
+
 
 
 
@@ -37,6 +44,18 @@
         background-position-x: right;
     }
 
+
+    .log{
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    .sign{
+        width: 100%;
+        height: 100%;
+    }
+    
     /* .logincontainer{
         width: 100%;
         height: 100%;
