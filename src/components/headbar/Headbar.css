@@ -20,7 +20,6 @@
 
 
 .headlogo{
-    /* background-color: red; */
     display: grid;
     align-items: center;
     justify-items: center;
@@ -36,6 +35,7 @@
     display: grid;
     justify-content: center;
     align-items: center;
+    font-size: 2em;
 }
 
 

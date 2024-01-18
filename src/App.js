@@ -10,7 +10,7 @@ function App() {
 
 
   return (
-    <div className='app'>
+    <div className='app container'>
       <Headbar/>
       <Login/>
     </div>
