@@ -163,16 +163,14 @@ button{
 .checkbox{
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
 
 }
 
 .checkbox input{
-    width: 30px;
-    outline: none;
-    border: none;
+    width: 20px;
     height: 1.2em;
-    margin: 0;
+    margin: 0 5px;
 }
 
 .others a{
@@ -216,6 +214,23 @@ button{
 
     .signupcontainer h1{
         font-size: 2rem;
+    }
+
+    .loginoptions{
+        width: 70%;
+    }
+
+    .loginform input{
+        width: 90%;
+    }
+
+    .others{
+        width: 90%;
+    }
+
+    .checkbox{
+        display: flex;
+        align-items: center;
     }
 
 

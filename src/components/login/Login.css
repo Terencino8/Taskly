@@ -37,7 +37,9 @@ button:hover{
 
 }
 
-
+.loginswitch{
+    display: none;
+}
 
 
 
@@ -63,30 +65,15 @@ button:hover{
         width: 100%;
         height: 100%;
     }
-    
-    /* .logincontainer{
-        width: 100%;
-        height: 100%;
-        background-color: #1e1f24da;
-        border-radius: 0;
+
+    .loginswitch{
+        display: block;
+        margin-top: 10%;
+        font-size: 1.4rem;
+        color: white;
 
     }
-
-
-    .loginimg{
-        display: none;
-    }
-
-    .loginform{
-        width: 100%;
-    }
-
-    .logincontainer h1{
-        font-size: 2rem;
-    }
-
-
-} */
+   
 }
 
     

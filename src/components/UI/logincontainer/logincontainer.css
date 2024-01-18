@@ -154,16 +154,14 @@ button{
 .checkbox{
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
 
 }
 
 .checkbox input{
-    width: 30px;
-    outline: none;
+    width: 20px;
     height: 1.2em;
-    margin: 0;
-    padding-inline: 0;
+    margin: 0 5px;
    
 }
 
@@ -186,11 +184,6 @@ button{
 
 @media screen and (max-width: 900px){
 
-    /* 
-    .loginBox{
-        background-size: contain;
-        background-position-x: right;
-    } */
 
     .logincontainer{
         width: 100%;
@@ -211,6 +204,23 @@ button{
 
     .logincontainer h1{
         font-size: 2rem;
+    }
+
+    .loginoptions{
+        width: 70%;
+    }
+
+    .loginform input{
+        width: 90%;
+    }
+
+    .others{
+        width: 90%;
+    }
+
+    .checkbox{
+        display: flex;
+        align-items: center;
     }
 
 

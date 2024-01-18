@@ -2,10 +2,11 @@ import React from 'react'
 import "../login/Login.css";
 import "../UI/logincontainer/logincontainer.css"
 import "../UI/signupcontainer/Signupcontainer.css"
-
 import facebook from "../../T_images/facebook-Icon.png"
 import linkedin from "../../T_images/linkedin-Icon.png"
 import gmail from "../../T_images/gmail-Icon.png"
+import { Link } from 'react-router-dom'
+
 
 
 
@@ -56,14 +57,16 @@ function handleClickLog(){
 
                 <div className="others">
                     <div className="checkbox">
-                        <input type="checkbox"  id="remember" />
-                        <span>Remember Me</span>
+                        <input type="checkbox"  id="remember"/>
+                        <span>Remember_Me</span>
                     </div>
 
-                    <a href="#">forgotten password?</a>
+                    <a href="0">forgotten password?</a>
                 </div>
 
-                <button>sign In</button>
+              <Link to="/home"><button>sign In</button></Link> 
+                <div className='loginswitch' onClick={handleClick}>Keep track of your Task
+                <br /> Sign Up now</div>
 
                 </form>
 
@@ -118,13 +121,15 @@ function handleClickLog(){
                 <div className="others">
                     <div className="checkbox">
                         <input type="checkbox"  id="remember" />
-                        <span>Remember Me</span>
+                        <span>Remember_Me</span>
                     </div>
 
-                    <a href="#">forgotten password?</a>
+                    <a href="0">forgotten password?</a>
                 </div>
 
-                <button>sign Up</button>
+                <Link to="/home"><button>sign Up</button></Link>
+                <div className='loginswitch' onClick={handleClickLog}>Login with your Personal info
+                Login</div>
 
                 </form>
 
