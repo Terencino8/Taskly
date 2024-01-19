@@ -1,0 +1,119 @@
+
+.center_container{
+    position: relative;
+    width: 80%;
+    color: white;
+}
+
+
+
+
+.titlebar{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.title{
+    padding: left 20px;;
+}
+
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    width: 60%;
+}
+
+.searchbar{
+    border-radius: 30px ;
+    height: 3.5em;
+    width: 60%;
+    border: 2px solid #5C5C5C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.searchbar input{
+    width: 80%;
+    height: 100%;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.6rem;
+    margin-right: 10px;
+}
+
+.titlebar button{
+    margin-top: 0;
+    background-color: #F36621;
+    border: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.searchBtn{
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.searchBtn:hover {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.task_container{
+    width: 100%;
+    height: 85%;
+    padding: 10px 5%;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 950px) {
+
+    .center_container{
+        width: 100%;
+    }
+    
+    .titlebar{
+        padding: 0 10px;
+        height: 10%;
+    }
+    .buttons{
+        width: 30%;
+        padding: 0;
+        justify-content: center;
+    }
+
+   .buttons button{
+    padding: 10px 20px;
+   }
+    .searchbar{
+        display: none;
+    }
+
+    .titlebar button span{
+        display: none;
+    }
+}

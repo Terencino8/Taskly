@@ -1,23 +1,17 @@
 import React from 'react'
-import "./Sidenav.css"
+
 import UserImg from "../../T_images/userImg.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRightToBracket, faCalendarDays, faList, faChartSimple, faTrash, faRightFromBracket } from '@fortawesome/free-solid-svg-icons'
 
 const Sidenav = () => {
 
-
-
-
-
   let btn = document.querySelector('.open')
-let sidebar = document.querySelector('.sidenav_wrapper')
-btn.onclick = function (){
-  sidebar.classList.toggle('active');
-
-}
-
-
+  let sidebar = document.querySelector('.sidenav_wrapper')
+  // btn.onclick = function (){
+  //   sidebar.classList.toggle('active');
+  
+  // }
 
 
   return (
@@ -74,6 +68,8 @@ btn.onclick = function (){
         </div>
     </div>
   )
+
+
 }
 
 export default Sidenav

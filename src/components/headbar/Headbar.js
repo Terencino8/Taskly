@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import './Headbar.css';
 import Logo from "../../T_images/logotasklylogo.png";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCalendarDays } from '@fortawesome/free-solid-svg-icons'
+
+
 
 function getDate() {
     const today = new Date();
@@ -22,7 +26,8 @@ const Headbar = () => {
               
             </div>
             <div className="headDate">
-            <p>{currentDate}</p>
+            <p>
+            <FontAwesomeIcon icon={faCalendarDays} />&nbsp;&nbsp;{currentDate}</p>
             </div>
     </div>
         

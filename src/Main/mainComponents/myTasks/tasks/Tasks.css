@@ -1,0 +1,76 @@
+.task{
+    width: 100%;
+    height: 15%;
+    background-color: #1E1F24;
+    border-radius: 15px;
+    box-shadow: var(--box-shadow-small);
+    margin-bottom: 3%;
+    display: flex;
+    
+    overflow: hidden;
+}
+
+.taskwrapper{
+    width: 70%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding:5px 20px;
+    font-size: 1.6rem;
+    overflow: hidden;
+
+}
+
+.tdate{
+    color: #A2A2A2;
+    margin-top: 20px;
+}
+
+
+
+
+.taskaction{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.6rem;
+    color: #A2A2A2;
+    padding: 0 10px;
+    
+}
+
+.i{
+    font-size: 2rem;
+}
+
+
+.editIcon{
+    color:  #FBBC04;
+}
+
+
+
+.trashIcon{
+    color: red;
+}
+
+
+@media screen and (max-width:950px) {
+    .task{
+        flex-direction: column;
+        height: 20%;
+    }
+
+    .taskwrapper{
+        font-size: 1.2rem;
+        width: 100%;
+
+    }
+    .taskaction{
+        width: 100%;
+    }
+    
+}
