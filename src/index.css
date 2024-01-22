@@ -12,6 +12,23 @@
   --btn-orange:#DC5A1B;
 }
 
+::-webkit-scrollbar{
+  width: 10px;
+  cursor: pointer;
+}
+::-webkit-scrollbar-track{
+  background: #1E1F24;
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb{
+   background: linear-gradient(#FBBC04,  #F36621);
+   border-radius: 10px;
+}
+
+
+
 * {
   margin: 0;
   padding: 0;

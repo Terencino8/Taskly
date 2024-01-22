@@ -8,10 +8,10 @@ const Sidenav = () => {
 
   let btn = document.querySelector('.open')
   let sidebar = document.querySelector('.sidenav_wrapper')
-  // btn.onclick = function (){
-  //   sidebar.classList.toggle('active');
+  btn.onclick = function (){
+    sidebar.classList.toggle('active');
   
-  // }
+  }
 
 
   return (

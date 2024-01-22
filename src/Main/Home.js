@@ -5,6 +5,9 @@ import "../components/sidenav/Sidenav.css"
 import Headbar from "../components/headbar/Headbar"
 import Sidenav from '../components/sidenav/Sidenav'
 import Mytasks from './mainComponents/myTasks/Mytasks'
+import CalculatorApp from './mainComponents/myTasks/calculator/CalculatorApp'
+
+
 
 
 
@@ -16,7 +19,12 @@ const Home = () => {
          <div className="wrapper">
             <Sidenav/>
             <Mytasks/>
-            <div className="phone"></div>
+            
+
+
+            <div className="calculatorContainer">
+                <CalculatorApp/>
+            </div>
          </div>
 
     </div>

@@ -1,4 +1,3 @@
-
 .center_container{
     position: relative;
     width: 80%;
@@ -16,6 +15,7 @@
     justify-content: space-between;
     padding: 0 30px;
 }
+
 
 .title{
     padding: left 20px;;
@@ -86,10 +86,6 @@
 
 
 
-
-
-
-
 @media screen and (max-width: 950px) {
 
     .center_container{
@@ -100,6 +96,7 @@
         padding: 0 10px;
         height: 10%;
     }
+    
     .buttons{
         width: 30%;
         padding: 0;
@@ -109,6 +106,7 @@
    .buttons button{
     padding: 10px 20px;
    }
+
     .searchbar{
         display: none;
     }

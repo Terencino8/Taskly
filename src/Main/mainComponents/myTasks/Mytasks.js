@@ -25,23 +25,7 @@ const Mytasks = () => {
     <div className="task_container">
         
         <Tasks/>
-        <Tasks/>
-        <Tasks/>
-        <Tasks/>
-        <Tasks/>
-        <Tasks/>
-        <Tasks/>
-        <Tasks/>
-        <Tasks/>
-        <Tasks/>
-        <Tasks/>
-        <Tasks/>
-        <Tasks/>
-        <Tasks/>
-        <Tasks/>
-        <Tasks/>
-        <Tasks/> 
-
+       
     </div>
 
 </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Textfit } from 'react-textfit';
 import './Tasks.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrash, faPencil }  from '@fortawesome/free-solid-svg-icons'
@@ -8,10 +9,10 @@ const Tasks = () => {
     <div className="task">
 
         <div className="taskwrapper">
-            <div className="taskname">
+            <Textfit className="taskname">
                 <h3 className="tname">start up my portfolio 2.0 update. </h3>
-                <span className="tdate">tart up my portfolio 2.0 update</span>
-            </div>
+                
+            </Textfit>
             
         </div>
 
