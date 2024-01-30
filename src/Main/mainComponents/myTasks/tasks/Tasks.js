@@ -4,13 +4,13 @@ import './Tasks.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrash, faPencil }  from '@fortawesome/free-solid-svg-icons'
 
-const Tasks = () => {
+const Tasks = ({task}) => {
   return (
     <div className="task">
 
         <div className="taskwrapper">
             <Textfit className="taskname">
-                <h3 className="tname">start up my portfolio 2.0 update. </h3>
+                <h3 className="tname">{task.task}</h3>
                 
             </Textfit>
             

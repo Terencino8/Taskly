@@ -1,30 +1,60 @@
-import React from 'react'
+import React, { useState } from  'react'
 import './Mytasks.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMagnifyingGlass, faPlus } from '@fortawesome/free-solid-svg-icons'
+import { faPlus } from '@fortawesome/free-solid-svg-icons'
 import Tasks from './tasks/Tasks'
+import { v4 as uuidv4 } from 'uuid';
+uuidv4();
 
 const Mytasks = () => {
-  return (
-    <div className="center_container">
 
+  const [value, setValue] = useState("")
+
+        const handleSubmit = e =>{
+            e.preventDefault();
+
+            addTodo(value);
+
+            setValue ("")
+        } 
+
+
+        const [todos,  setTodos] = useState([]);
+
+        const addTodo = todo => {
+          setTodos ([...todos, {id: uuidv4(), task: todo, complete: false, isEditing: false}])
+          console.log(todos)
+      }
+      
+
+
+
+  return (
+    <div className="center_container"  addTodo={addTodo}>
 
     <div className="titlebar">
         <h1 className="title">My Tasks</h1>
-            <div className="buttons">
+            <form className="buttons" onSubmit={handleSubmit}>
                 <div className="searchbar">
-                   <input type="text" placeholder='Search'/>
-                   <FontAwesomeIcon icon={faMagnifyingGlass}  className='searchBtn'/>
+                   <input type="text" value={value} placeholder='What are We Doing Today...?' onChange={(e) =>setValue(e.target.value)}/>
 
                 </div>
-                <button>
-                    <FontAwesomeIcon icon={faPlus}/> <span>New Task</span>
+                <button type='submit'>
+                    <FontAwesomeIcon icon={faPlus}/> <span>Add Task</span>
                 </button>
-            </div>
+            </form>
     </div>
+
+
+
     <div className="task_container">
-        
-        <Tasks/>
+
+            {todos.map((todo, index)=> (
+              <Tasks  task= {todo} key={index}/>
+
+            ))}
+   
+
        
     </div>
 

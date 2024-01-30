@@ -17,7 +17,7 @@
 .screen{
     height: 20%;
     width: 100%;
-    margin-bottom: 4rem;
+    margin-bottom: 3.5rem;
     background-color: #15161A;
     font-size: 3rem;
     padding: 1rem;
@@ -35,7 +35,7 @@
     background-color: black;
     font-size: 2rem;
     border-radius: 50%;
-    padding: 30px;
+    padding: 25px;
     /* height: 3.5rem; */
     border: none;
     cursor: pointer;
@@ -51,7 +51,6 @@
 .zero {
     grid-column: 1/3;
     border-radius: 50px;
-
 }
 
 

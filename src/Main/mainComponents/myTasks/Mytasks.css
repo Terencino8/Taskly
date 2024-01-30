@@ -61,15 +61,7 @@
     cursor: pointer;
 }
 
-.searchBtn{
-    font-size: 1.6rem;
-    cursor: pointer;
-}
 
-.searchBtn:hover {
-    font-size: 2rem;
-    font-weight: 700;
-}
 
 .task_container{
     width: 100%;

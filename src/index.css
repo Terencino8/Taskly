@@ -16,6 +16,8 @@
   width: 10px;
   cursor: pointer;
 }
+
+
 ::-webkit-scrollbar-track{
   background: #1E1F24;
   border-radius: 10px;
