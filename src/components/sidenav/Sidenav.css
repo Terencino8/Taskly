@@ -86,17 +86,14 @@
     color: white;
   font-weight: 700;
 }
+
+
+
 .nav span{
     width: 70%;
     margin-left: 20px;
 }
 
-.div:active{
-    background-color: #18191D;
-    border-left:4px solid #FBBC04 ;
-    color: white;
-  font-weight: 700;
-}
 
 
 

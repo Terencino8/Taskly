@@ -44,6 +44,10 @@
     
 }
 
+.action{
+    color: #FBBC04;
+}
+
 .i{
     font-size: 2rem;
 }
@@ -60,6 +64,22 @@
 }
 
 
+.Updatebuttons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 3%;
+}
+
+.updateBtn{
+    margin: 0;
+}
+
+.updateInput{
+    width: 100%;
+}
+
 @media screen and (max-width:950px) {
     .task{
         flex-direction: column;
@@ -73,5 +93,9 @@
     }
     .taskaction{
         width: 100%;
+    }
+
+    .updateBtn span{
+        display: none;
     }
 }

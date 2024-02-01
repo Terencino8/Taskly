@@ -85,12 +85,16 @@
     }
     
     .titlebar{
-        padding: 0 10px;
-        height: 10%;
+        padding: 10px 10px;
+        height: 15%;
+        flex-direction: column;
+    }
+    .searchbar{
+        width: 90%;
     }
     
     .buttons{
-        width: 30%;
+        width: 100%;
         padding: 0;
         justify-content: center;
     }
@@ -99,9 +103,6 @@
     padding: 10px 20px;
    }
 
-    .searchbar{
-        display: none;
-    }
 
     .titlebar button span{
         display: none;
