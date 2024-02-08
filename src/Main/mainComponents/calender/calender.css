@@ -1,0 +1,10 @@
+.calenderwrapper{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 2rem;
+}
+
+.rbc-day-bg + .rbc-day-bg {
+    border-left: 1px solid #F36621;
+}

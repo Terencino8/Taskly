@@ -1,8 +1,9 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 import UserImg from "../../T_images/userImg.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRightToBracket, faCalendarDays, faList, faChartSimple, faTrash, faRightFromBracket } from '@fortawesome/free-solid-svg-icons'
+import Home from '../../Main/Home'
 
 
 
@@ -28,17 +29,17 @@ const Sidenav = () => {
 
 
           
-            <div className="nav nav_task">
+            <Link to="/home" className="nav nav_task">
              
               <FontAwesomeIcon icon={faList} className='i'/>
                 <span>My Tasks</span>
-            </div>
-            <div className="nav nav_calender">
+            </Link>
+            <Link to="/calender" className="nav nav_calender">
             
                 <FontAwesomeIcon icon={faCalendarDays} className='i'/>
                 <span>calander</span>
               
-            </div>
+            </Link>
             <div className="nav nav_Report" >
          
                 <FontAwesomeIcon icon={faChartSimple} className='i'/>
@@ -51,24 +52,24 @@ const Sidenav = () => {
                   <span>Recycle Bin</span>
   
             </div>
-            <div className="nav" >
+            <Link to="/" className="nav" >
                   <FontAwesomeIcon icon={faRightFromBracket} className='i'/>
                   <span>Log Out</span>
-            </div>
+            </Link>
             
 
           
         </div>
 
         <div className="user">
-        <div className="userImg">
-          <img src={UserImg} alt="users_image"/>
-        </div>
+          <div className="userImg">
+            <img src={UserImg} alt="users_image"/>
+          </div>
 
-            <div className="aboutUser">
-              <p className='name'>Onyekachi Terence</p>
-              <p className="occupation">UI Designer</p>
-            </div>
+              <div className="aboutUser">
+                <p className='name'>Onyekachi Terence</p>
+                <p className="occupation">UI Designer</p>
+              </div>
         </div>
     </div>
   )

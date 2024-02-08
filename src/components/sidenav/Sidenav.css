@@ -17,6 +17,11 @@
 
 }
 
+:link{
+    text-decoration: none;
+}
+
+
 .sidenav_wrapper.active{
     width: 20%;
     border-radius: 0 30px 30px 0;
@@ -131,6 +136,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 20%;
+    cursor: pointer;
 }
 
 .sidenav_wrapper.active .user{
